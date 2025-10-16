@@ -1,0 +1,26 @@
+Problem 1.3: Social Media Post Toxicity and Categorization
+
+Scenario:
+
+A social media platform receives thousands of posts daily. Moderators need to quickly identify posts that are toxic, offensive, or require attention. Currently, manual moderation causes delays and inconsistent decisions, which can harm user experience and platform reputation.
+
+Challenge:
+
+Design a prompt that reads a social media post and outputs:
+•	Toxicity level: High, Medium, Low, or Safe
+•	Category: Hate Speech, Harassment, Spam, Misinformation, Other
+•	Suggested action: Review, Auto-remove, Flag, No action
+•	Reasoning: Short explanation of the decision
+
+Model Implications:
+•	Must understand context and subtle language, including sarcasm or indirect threats.
+•	Needs to handle multilingual content or slang effectively.
+•	Models like GPT-4, Claude Opus, or LLaMA 3 are suitable.
+•	Must generate structured JSON output for easy ingestion.
+
+Success Criteria:
+•	90%+ accuracy in toxicity detection and category assignment
+•	Correctly suggests appropriate action
+•	JSON output is well-structured and consistent
+•	Handles ambiguous or mixed-content posts without crashing
+
